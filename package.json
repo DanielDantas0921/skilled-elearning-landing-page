@@ -1,0 +1,13 @@
+{
+  "name": "2---skilled-e-learning-landing-page-com-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass --watch src/sass/style.scss:src/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
