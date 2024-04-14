@@ -1,0 +1,45 @@
+@import "./typograph.scss";
+@import "./colors.scss";
+
+// sections
+@import "./section/header.scss";
+
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.btn-common{
+    color: $white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1.2rem;
+    font-size: 1rem;
+    border: none;
+}
+
+@mixin btn($background-color){
+    background-color: $background-color;
+    @extend .btn-common;
+    
+}
+
+@mixin btn2($background-image){
+    background-image: $background-image;
+    @extend .btn-common;
+    
+}
+
+
+.btn-get-started1{
+    
+    @include btn($intense-navy-blue);
+    
+}
+.btn-get-started2{
+    @include btn2($pink-orange-gradient);
+   
+}
+
+.btn-get-started3{
+    @include btn2($blue-pink-gradient);
+}

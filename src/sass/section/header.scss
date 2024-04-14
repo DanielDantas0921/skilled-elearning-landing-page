@@ -1,0 +1,30 @@
+header {
+    position: relative;
+
+    &.teste {
+        color: white;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.8rem 7rem;
+    }
+
+    .header-content {
+        width: 21rem;
+        height: 18rem;
+        margin-left: 7.8%;
+        margin-top:5%;
+    }
+}
+
+
+.header-img-womman {
+    position: absolute;
+    z-index: -3;
+    width: 58%;
+    top: -35%;
+    right: -20%;
+}

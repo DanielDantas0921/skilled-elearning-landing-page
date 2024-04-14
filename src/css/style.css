@@ -1,3 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+.headingXl {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
 
+.headingL {
+  font-size: 40px;
+  line-height: 51px;
+}
+
+.headingM {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.headingS {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.bodyM {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.bodyS {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+header {
+  position: relative;
+}
+header.teste {
+  color: white;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 7rem;
+}
+header .header-content {
+  width: 21rem;
+  height: 18rem;
+  margin-left: 7.8%;
+  margin-top: 5%;
+}
+
+.header-img-womman {
+  position: absolute;
+  z-index: -3;
+  width: 58%;
+  top: -35%;
+  right: -20%;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.btn-common, .btn-get-started3, .btn-get-started2, .btn-get-started1 {
+  color: #FFFFFF;
+  padding: 0.7rem 1.2rem;
+  border-radius: 1.2rem;
+  font-size: 1rem;
+  border: none;
+}
+
+.btn-get-started1 {
+  background-color: #13183F;
+}
+
+.btn-get-started2 {
+  background-image: linear-gradient(to top, #F02AA6, #FF6F48);
+}
+
+.btn-get-started3 {
+  background-image: linear-gradient(to top, #4851FF, #F02AA6);
+}
 
 /*# sourceMappingURL=style.css.map */

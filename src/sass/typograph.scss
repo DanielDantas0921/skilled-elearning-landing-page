@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@mixin typographProprieties($font-size, $line-height){
+    font-size: $font-size ;
+    line-height: $line-height;
+}
+
+.headingXl{
+    @include typographProprieties(2.5rem, 3rem)
+}
+
+.headingL{
+    @include typographProprieties(40px, 51px)
+}
+
+.headingM{
+    @include typographProprieties(32px, 40px)
+}
+
+.headingS{
+    @include typographProprieties(24px, 28px)
+}
+
+.bodyM{
+    @include typographProprieties(1rem, 2rem)
+}
+
+.bodyS{
+    @include typographProprieties(16px, 28px)
+}
