@@ -2,6 +2,7 @@
 .headingXl {
   font-size: 2.5rem;
   line-height: 3rem;
+  color: #13183F;
 }
 
 .headingL {
@@ -22,6 +23,7 @@
 .bodyM {
   font-size: 1rem;
   line-height: 2rem;
+  color: #83869A;
 }
 
 .bodyS {
@@ -31,9 +33,6 @@
 
 header {
   position: relative;
-}
-header.teste {
-  color: white;
 }
 header nav {
   display: flex;
@@ -45,7 +44,7 @@ header .header-content {
   width: 21rem;
   height: 18rem;
   margin-left: 7.8%;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .header-img-womman {
@@ -53,7 +52,40 @@ header .header-content {
   z-index: -3;
   width: 58%;
   top: -35%;
-  right: -20%;
+  right: -23%;
+}
+
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 8rem;
+}
+
+.retanguleItemCommun, .retanguleItem, .retanguleItem1 {
+  width: 323px;
+  height: 250px;
+}
+
+.retanguleItem1 {
+  background-color: blue;
+}
+.retanguleItem1 .retanguleContent {
+  width: 100%;
+  height: 100%;
+  padding: 3.5rem 2.2rem;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  background-image: linear-gradient(to top, #F02AA6, #FF6F48);
+}
+
+.retanguleItem {
+  background-color: yellow;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {

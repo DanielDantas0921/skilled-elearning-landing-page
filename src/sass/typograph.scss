@@ -6,25 +6,27 @@
 }
 
 .headingXl{
-    @include typographProprieties(2.5rem, 3rem)
+    @include typographProprieties(2.5rem, 3rem);
+    color: $intense-navy-blue;
 }
 
 .headingL{
-    @include typographProprieties(40px, 51px)
+    @include typographProprieties(40px, 51px);
 }
 
 .headingM{
-    @include typographProprieties(32px, 40px)
+    @include typographProprieties(32px, 40px);
 }
 
 .headingS{
-    @include typographProprieties(24px, 28px)
+    @include typographProprieties(24px, 28px);
 }
 
 .bodyM{
-    @include typographProprieties(1rem, 2rem)
+    @include typographProprieties(1rem, 2rem);
+    color: $gray;
 }
 
 .bodyS{
-    @include typographProprieties(16px, 28px)
+    @include typographProprieties(16px, 28px);
 }

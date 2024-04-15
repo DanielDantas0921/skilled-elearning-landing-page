@@ -1,9 +1,17 @@
-@import "./typograph.scss";
 @import "./colors.scss";
+@import "./typograph.scss";
+
 
 // sections
 @import "./section/header.scss";
+@import "./section/courses.scss";
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     font-family: "Plus Jakarta Sans", sans-serif;
