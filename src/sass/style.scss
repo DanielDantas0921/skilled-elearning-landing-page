@@ -5,6 +5,7 @@
 // sections
 @import "./section/header.scss";
 @import "./section/courses.scss";
+@import "./section/footer.scss";
 
 
 *{
@@ -41,13 +42,26 @@ body{
 .btn-get-started1{
     
     @include btn($intense-navy-blue);
+    &:hover{
+        background-color: $blue-gray;
+    }
     
 }
 .btn-get-started2{
     @include btn2($pink-orange-gradient);
+    &:hover{
+        opacity: 0.6
+    }
    
 }
 
 .btn-get-started3{
     @include btn2($blue-pink-gradient);
+    &:hover{
+        opacity: 0.6;
+    }
+}
+
+.get-started-a:hover{
+    opacity: 0.6;
 }
