@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 .headingXl {
   font-size: 2.5rem;
@@ -33,17 +34,19 @@
 
 header {
   position: relative;
+  width: 100%;
+  overflow: hidden;
 }
 header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.8rem 15rem;
+  padding: 1.5rem 15.8rem;
 }
 header .header-content {
-  width: 21rem;
+  width: 25%;
   height: 18rem;
-  margin-left: 15.5%;
+  margin-left: 17.5%;
   margin-top: 10%;
 }
 header .header-content h1 {
@@ -61,6 +64,26 @@ header .header-content p {
   right: -23%;
 }
 
+/* Estilo para dispositivos móveis pequenos */
+@media (max-width: 575.98px) {
+  /* Estilos aqui */
+}
+/* Estilo para dispositivos móveis médios */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Estilos aqui */
+}
+/* Estilo para tablets */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Estilos aqui */
+}
+/* Estilo para laptops pequenos */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Estilos aqui */
+}
+/* Estilo para desktops e laptops maiores */
+@media (min-width: 1200px) {
+  /* Estilos aqui */
+}
 .courses {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

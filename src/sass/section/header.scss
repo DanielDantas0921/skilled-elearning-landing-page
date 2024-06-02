@@ -1,18 +1,20 @@
 header {
     position: relative;
+    width: 100%;
+    overflow: hidden;
 
 
     nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0.8rem 15rem;
+        padding: 1.5rem 15.8rem;
     }
 
     .header-content {
-        width: 21rem;
+        width: 25%;
         height: 18rem;
-        margin-left: 15.5%;
+        margin-left: 17.5%;
         margin-top:10%;
 
         h1{
@@ -32,3 +34,28 @@ header {
     top: -35%;
     right: -23%;
 }
+
+/* Estilo para dispositivos móveis pequenos */
+@media (max-width: 575.98px) {
+    /* Estilos aqui */
+  }
+  
+  /* Estilo para dispositivos móveis médios */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /* Estilos aqui */
+  }
+  
+  /* Estilo para tablets */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Estilos aqui */
+  }
+  
+  /* Estilo para laptops pequenos */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Estilos aqui */
+  }
+  
+  /* Estilo para desktops e laptops maiores */
+  @media (min-width: 1200px) {
+    /* Estilos aqui */
+  }
