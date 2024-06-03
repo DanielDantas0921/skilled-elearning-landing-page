@@ -154,7 +154,7 @@ header .header-content p {
 .courses {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 8rem;
+  margin-top: 40vh;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 4rem;
