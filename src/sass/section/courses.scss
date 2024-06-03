@@ -1,17 +1,18 @@
 .courses{
-    // width: 1200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 8rem;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 4rem;
-    width: 1009px;
+    //margin: 8rem auto 4rem; top, right and left , bottom
+    //margin: 8rem 2rem 4rem 2rem; top right bottom left
+    width: 82%;
     gap: 50px;
 }
 
 .retanguleItemCommun{
-    width: 323px;
+    width: 100%;
     height: 250px ;
 }
 

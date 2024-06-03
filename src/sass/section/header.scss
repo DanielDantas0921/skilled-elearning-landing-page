@@ -1,20 +1,19 @@
 header {
     position: relative;
     width: 100%;
-    overflow: hidden;
 
 
     nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 1.5rem 15.8rem;
+        padding: 1.5rem 9.5%;
     }
 
     .header-content {
         width: 25%;
         height: 18rem;
-        margin-left: 17.5%;
+        margin-left: 9.5%;
         margin-top:10%;
 
         h1{
@@ -31,7 +30,7 @@ header {
     position: absolute;
     z-index: -3;
     width: 58%;
-    top: -35%;
+    top: -32%;
     right: -23%;
 }
 
@@ -57,5 +56,11 @@ header {
   
   /* Estilo para desktops e laptops maiores */
   @media (min-width: 1200px) {
-    /* Estilos aqui */
+   header{
+
+    .header-content{
+
+    }
+    
+   }
   }
