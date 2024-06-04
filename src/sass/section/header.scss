@@ -1,6 +1,9 @@
 header {
     position: relative;
     width: 100%;
+    overflow: hidden;
+    padding-bottom: 5vh;
+    
 
 
     nav {
@@ -27,9 +30,9 @@ header {
 
 
 .header-img-womman {
-  display: block;
+    display: block;
     position: absolute;
-    z-index: -3;
+    z-index: 10;
     width: 58%;
     top: -15vh;
     right: -18vw;
@@ -104,6 +107,7 @@ header {
       height: 28vh;
       margin-left: 9.5vw;
       margin-top:7vh;
+      margin-bottom: 5vh;
 
   }
 
@@ -147,7 +151,9 @@ header {
     }
 
     .header-img-womman {  
-     
+      width: 58%;
+      top: -5vh;
+      right: -18vw;
   }
 
   .header-img-womman-mobile{
@@ -177,6 +183,12 @@ header {
   }
 
     }
+
+    .header-img-womman {  
+      width: 58%;
+      top: -2vh;
+      right: -18vw;
+  }
   }
   
   /* Estilo para desktops e laptops maiores (não precisa)*/
