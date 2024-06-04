@@ -46,7 +46,7 @@ header .header-content {
   width: 25%;
   height: 40vh;
   margin-left: 9.5vw;
-  margin-top: 10vh;
+  margin-top: 25vh;
 }
 header .header-content h1 {
   margin-bottom: 1.5rem;
@@ -60,7 +60,7 @@ header .header-content p {
   position: absolute;
   z-index: -3;
   width: 58%;
-  top: -7vh;
+  top: -15vh;
   right: -18vw;
 }
 
@@ -79,6 +79,7 @@ header .header-content p {
     height: 35vh;
     margin-left: 9.5vw;
     margin-top: 4vh;
+    margin-bottom: 10vh;
   }
   header .header-content h1 {
     margin-bottom: 1rem;
@@ -154,7 +155,7 @@ header .header-content p {
 .courses {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 40vh;
+  margin-top: 30vh;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 4rem;
@@ -243,7 +244,7 @@ header .header-content p {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   /* Estilos aqui */
   .courses {
-    margin-top: 8vh;
+    margin-top: 15vh;
   }
 }
 /* Estilo para desktops e laptops maiores (não precisa)*/
