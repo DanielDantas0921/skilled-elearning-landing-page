@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 .headingXl {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   line-height: 3rem;
   color: #13183F;
 }
@@ -32,11 +32,38 @@
   line-height: 28px;
 }
 
+/* Estilo para dispositivos móveis pequenos */
+/* Estilo para dispositivos móveis médios */
+/* Estilo para tablets */
+/* Estilo para laptops pequenos */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .headingXl {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    color: #13183F;
+  }
+}
+/* Estilo para desktops e laptops maiores (não precisa)*/
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .headingXl {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #13183F;
+  }
+}
+@media (min-width: 1300px) {
+  .headingXl {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #13183F;
+  }
+}
 header {
   position: relative;
   width: 100%;
+  height: 85%;
   overflow: hidden;
-  padding-bottom: 5vh;
+  padding-bottom: 11vh;
 }
 header nav {
   display: flex;
@@ -46,9 +73,9 @@ header nav {
 }
 header .header-content {
   width: 25%;
-  height: 40vh;
+  height: 10%;
   margin-left: 9.5vw;
-  margin-top: 25vh;
+  margin-top: 18vh;
 }
 header .header-content h1 {
   margin-bottom: 1.5rem;
@@ -61,7 +88,7 @@ header .header-content p {
   display: block;
   position: absolute;
   z-index: 10;
-  width: 58%;
+  width: 55vw;
   top: -15vh;
   right: -18vw;
 }
@@ -137,13 +164,13 @@ header .header-content p {
     width: 15%;
   }
   header .header-content {
-    width: 40%;
+    width: 30%;
     margin-left: 9.5vw;
-    margin-top: 7vh;
+    margin-top: 5vh;
   }
   .header-img-womman {
     width: 58%;
-    top: -5vh;
+    top: -3vh;
     right: -18vw;
   }
 }
@@ -156,19 +183,41 @@ header .header-content p {
   header .header-content {
     width: 32%;
     margin-left: 9.5vw;
-    margin-top: 7vh;
+    margin-top: 13vh;
   }
   .header-img-womman {
-    width: 58%;
-    top: -2vh;
+    width: 60%;
+    top: -8vh;
     right: -18vw;
   }
 }
 /* Estilo para desktops e laptops maiores (não precisa)*/
+@media (min-width: 1200px) and (max-width: 1300px) {
+  header .header-content {
+    width: 30%;
+    margin-top: 13vh;
+  }
+  .header-img-womman {
+    width: 58%;
+    top: -10vh;
+  }
+}
+@media (min-width: 1300px) {
+  header {
+    height: 660px;
+  }
+  header .header-content {
+    width: 30%;
+  }
+  .header-img-womman {
+    width: 58%;
+    top: -10vh;
+  }
+}
 .courses {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 30vh;
+  margin-top: 10vh;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 4rem;
@@ -261,6 +310,11 @@ header .header-content p {
   }
 }
 /* Estilo para desktops e laptops maiores (não precisa)*/
+@media (min-width: 1200px) {
+  .courses {
+    margin-top: 5vh;
+  }
+}
 footer {
   width: 100%;
   height: 6rem;

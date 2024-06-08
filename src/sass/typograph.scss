@@ -6,7 +6,7 @@
 }
 
 .headingXl{
-    @include typographProprieties(2.5rem, 3rem);
+    @include typographProprieties(2.2rem, 3rem);
     color: $intense-navy-blue;
 }
 
@@ -30,3 +30,47 @@
 .bodyS{
     @include typographProprieties(16px, 28px);
 }
+
+
+/* Estilo para dispositivos móveis pequenos */
+@media (max-width: 575.98px) {
+    
+
+  }
+  
+  /* Estilo para dispositivos móveis médios */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    
+
+  }
+  
+  /* Estilo para tablets */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+   
+
+}
+  
+  /* Estilo para laptops pequenos */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .headingXl{
+        @include typographProprieties(2.2rem, 3rem);
+        color: $intense-navy-blue;
+    }
+  }
+  
+  /* Estilo para desktops e laptops maiores (não precisa)*/
+  @media (min-width: 1200px) and (max-width: 1300px) {
+    .headingXl{
+        @include typographProprieties(2.5rem, 3rem);
+        color: $intense-navy-blue;
+    }
+  }
+
+  @media (min-width: 1300px){
+    .headingXl{
+        @include typographProprieties(2.5rem, 3rem);
+        color: $intense-navy-blue;
+    }
+
+
+  }
