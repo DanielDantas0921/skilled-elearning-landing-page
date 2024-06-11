@@ -3,7 +3,7 @@ header {
     width: 100%;
     overflow: hidden;
     padding-bottom: 11vh;
-    height: 650px;
+
     
 
 
@@ -41,7 +41,57 @@ header {
 .div-header-img-womman-mobile{
   display: none;
 }
-@media (max-width: 450.98px){
+
+@media(max-width: 370px){
+  header{
+    height: 750px;
+    nav{
+      img{
+        width: 28%;
+      }  
+    
+  }
+
+  .header-content {
+    width: 80%;
+    height: 35vh;
+    margin-left: 9.5vw;
+    margin-top:4vh;
+    margin-bottom: 10vh;
+
+    h1{
+      margin-bottom: 1rem;
+      
+  }
+  p{
+      margin-bottom: 1rem;
+      
+  }
+
+}
+
+  }
+
+  .header-img-womman {  
+    display: none;
+}
+.div-header-img-womman-mobile{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -3rem;
+}
+
+.header-img-womman-mobile {  
+   width: 90%;
+   display: block;
+}
+
+}
+
+@media (min-width: 370px) and (max-width: 450.98px){
 
   header{
     height: 750px;
@@ -81,7 +131,7 @@ header {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: -80px;
+  top: -4rem;
 }
 
 .header-img-womman-mobile {  
@@ -97,7 +147,7 @@ header {
     /* Estilos aqui */
 
     header{
-      height: 750px;
+      height: 42rem;
       nav{
         img{
           width: 28%;
@@ -134,7 +184,7 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -160px;
+    top: -8rem;
   }
 
   .header-img-womman-mobile {  
@@ -148,7 +198,7 @@ header {
   @media (min-width: 576px) and (max-width: 767.98px) {
     /* Estilos aqui */
     header{
-      height: 1200px;
+      height: 48rem;
       nav{
         img{
           width: 15%;
@@ -176,7 +226,7 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -130px;
+    top: -6rem;
   }
 
   .header-img-womman-mobile {  
@@ -270,7 +320,7 @@ header {
   @media (min-width: 1300px){
     header{
 
-      height: 700px;
+      height: 40rem;
       .header-content{
         width: 30%;
       }
