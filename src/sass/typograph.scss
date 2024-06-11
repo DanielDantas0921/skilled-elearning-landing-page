@@ -34,19 +34,28 @@
 
 /* Estilo para dispositivos móveis pequenos */
 @media (max-width: 575.98px) {
-    
+    .headingXl{
+        @include typographProprieties(1.8rem, 3rem);
+        color: $intense-navy-blue;
+    }
 
   }
   
   /* Estilo para dispositivos móveis médios */
   @media (min-width: 576px) and (max-width: 767.98px) {
-    
+    .headingXl{
+        @include typographProprieties(1.8rem, 3rem);
+        color: $intense-navy-blue;
+    }
 
   }
   
   /* Estilo para tablets */
   @media (min-width: 768px) and (max-width: 991.98px) {
-   
+    .headingXl{
+        @include typographProprieties(1.8rem, 3rem);
+        color: $intense-navy-blue;
+    }
 
 }
   

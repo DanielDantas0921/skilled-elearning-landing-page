@@ -5,3 +5,7 @@ sobre como fazer layout responsivos
 https://chatgpt.com/share/0206fd96-05bc-493a-9265-045abe1c8b61
 
 sobre como fazer uma imagem absoluta ficar responsiva
+
+--------------------------------------------------------------
+ajeitar a margin dos cursos no 1000 px de larfgura
+e caso precisar definir uma altura em px definir.

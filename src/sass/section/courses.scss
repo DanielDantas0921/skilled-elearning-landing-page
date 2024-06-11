@@ -74,12 +74,18 @@
     }
 }
  
+@media (max-width: 450px){
+    .courses{
+        margin-top: -3vh;
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-/* Estilo para dispositivos móveis pequenos */
-@media (max-width: 575.98px) {
+}
+
+@media (min-width: 450px) and (max-width: 575.98px) {
     /* Estilos aqui */
     .courses{
-        margin-top: 0vh;
+        margin-top: 8vh;
         grid-template-columns: repeat(1, 1fr);
     }
   }
@@ -88,7 +94,7 @@
   @media (min-width: 576px) and (max-width: 767.98px) {
     /* Estilos aqui */
     .courses{
-        margin-top: 0vh;
+        margin-top: -35vh;
         grid-template-columns: repeat(1, 1fr);
     }
   }
@@ -107,7 +113,7 @@
   @media (min-width: 992px) and (max-width: 1199.98px) {
     /* Estilos aqui */
     .courses{
-        margin-top: 15vh;
+        margin-top: 0vh;
     }
  
   }
@@ -115,6 +121,6 @@
   /* Estilo para desktops e laptops maiores (não precisa)*/
   @media (min-width: 1200px) {
     .courses{
-        margin-top: 5vh;
+        margin-top: 2vh;
     }
   }
