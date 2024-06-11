@@ -76,7 +76,7 @@
  
 @media (max-width: 450px){
     .courses{
-        margin-top: -9vh;
+        margin-top: -5rem;
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -85,7 +85,7 @@
 @media (min-width: 450px) and (max-width: 575.98px) {
     /* Estilos aqui */
     .courses{
-        margin-top: 8vh;
+        margin-top: 4rem;
         grid-template-columns: repeat(1, 1fr);
     }
   }
@@ -103,7 +103,7 @@
   @media (min-width: 768px) and (max-width: 991.98px) {
     /* Estilos aqui */
     .courses{
-        margin-top: 0vh;
+        margin-top: 0rem;
         grid-template-columns: repeat(2, 1fr);
     }
     
@@ -121,6 +121,6 @@
   /* Estilo para desktops e laptops maiores (não precisa)*/
   @media (min-width: 1200px) {
     .courses{
-        margin-top: 2vh;
+        margin-top: 0rem;
     }
   }

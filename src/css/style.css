@@ -83,7 +83,6 @@ header {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-bottom: 11vh;
 }
 header nav {
   display: flex;
@@ -93,9 +92,8 @@ header nav {
 }
 header .header-content {
   width: 25%;
-  height: 10%;
-  margin-left: 9.5vw;
-  margin-top: 18vh;
+  margin-left: 9.5%;
+  margin-top: 12rem;
 }
 header .header-content h1 {
   margin-bottom: 1.5rem;
@@ -108,9 +106,8 @@ header .header-content p {
   display: block;
   position: absolute;
   z-index: 10;
-  width: 55vw;
-  top: -15vh;
-  right: -18vw;
+  top: -5rem;
+  right: -14rem;
 }
 
 .div-header-img-womman-mobile {
@@ -126,10 +123,9 @@ header .header-content p {
   }
   header .header-content {
     width: 80%;
-    height: 35vh;
-    margin-left: 9.5vw;
-    margin-top: 4vh;
-    margin-bottom: 10vh;
+    margin-left: 9.5%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
   }
   header .header-content h1 {
     margin-bottom: 1rem;
@@ -162,10 +158,9 @@ header .header-content p {
   }
   header .header-content {
     width: 80%;
-    height: 35vh;
-    margin-left: 9.5vw;
-    margin-top: 4vh;
-    margin-bottom: 10vh;
+    margin-left: 9.5%;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
   }
   header .header-content h1 {
     margin-bottom: 1rem;
@@ -193,17 +188,16 @@ header .header-content p {
 @media (min-width: 450px) and (max-width: 575.98px) {
   /* Estilos aqui */
   header {
-    height: 42rem;
+    height: 44rem;
   }
   header nav img {
     width: 28%;
   }
   header .header-content {
     width: 80%;
-    height: 35vh;
-    margin-left: 9.5vw;
-    margin-top: 4vh;
-    margin-bottom: 10vh;
+    margin-left: 9.5%;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
   }
   header .header-content h1 {
     margin-bottom: 1rem;
@@ -238,10 +232,9 @@ header .header-content p {
   }
   header .header-content {
     width: 80%;
-    height: 28vh;
-    margin-left: 9.5vw;
-    margin-top: 7vh;
-    margin-bottom: 5vh;
+    margin-left: 9.5%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
   }
   .header-img-womman {
     display: none;
@@ -269,39 +262,39 @@ header .header-content p {
   }
   header .header-content {
     width: 30%;
-    margin-left: 9.5vw;
-    margin-top: 5vh;
+    margin-left: 9.5%;
+    margin-top: 3rem;
   }
   .header-img-womman {
-    width: 58%;
-    top: -3vh;
-    right: -18vw;
+    width: 60%;
+    top: -3rem;
+    right: -10rem;
   }
 }
 /* Estilo para laptops pequenos */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   /* Estilos aqui */
   header {
-    height: 570px;
+    height: 35.6rem;
   }
   header nav img {
     width: 10%;
   }
   header .header-content {
     width: 32%;
-    margin-left: 9.5vw;
-    margin-top: 13vh;
+    margin-left: 9.5%;
+    margin-top: 7rem;
   }
   .header-img-womman {
     width: 60%;
-    top: -8vh;
-    right: -18vw;
+    top: -5rem;
+    right: -13rem;
   }
 }
 /* Estilo para desktops e laptops maiores (não precisa)*/
 @media (min-width: 1200px) and (max-width: 1300px) {
   header {
-    height: 580px;
+    height: 35rem;
   }
   header .header-content {
     width: 30%;
@@ -309,19 +302,20 @@ header .header-content p {
   }
   .header-img-womman {
     width: 58%;
-    top: -10vh;
+    top: -5rem;
   }
 }
 @media (min-width: 1300px) {
   header {
-    height: 40rem;
+    height: 44rem;
   }
   header .header-content {
     width: 30%;
   }
   .header-img-womman {
     width: 58%;
-    top: -10vh;
+    top: -5rem;
+    right: -14rem;
   }
 }
 .courses {
@@ -390,14 +384,14 @@ header .header-content p {
 
 @media (max-width: 450px) {
   .courses {
-    margin-top: -9vh;
+    margin-top: -5rem;
     grid-template-columns: repeat(1, 1fr);
   }
 }
 @media (min-width: 450px) and (max-width: 575.98px) {
   /* Estilos aqui */
   .courses {
-    margin-top: 8vh;
+    margin-top: 4rem;
     grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -413,7 +407,7 @@ header .header-content p {
 @media (min-width: 768px) and (max-width: 991.98px) {
   /* Estilos aqui */
   .courses {
-    margin-top: 0vh;
+    margin-top: 0rem;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -427,7 +421,7 @@ header .header-content p {
 /* Estilo para desktops e laptops maiores (não precisa)*/
 @media (min-width: 1200px) {
   .courses {
-    margin-top: 2vh;
+    margin-top: 0rem;
   }
 }
 footer {

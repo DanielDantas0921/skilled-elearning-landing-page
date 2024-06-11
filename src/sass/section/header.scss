@@ -2,7 +2,7 @@ header {
     position: relative;
     width: 100%;
     overflow: hidden;
-    padding-bottom: 11vh;
+
 
     
 
@@ -16,9 +16,8 @@ header {
 
     .header-content {
         width: 25%;
-        height: 10%;
-        margin-left: 9.5vw;
-        margin-top:18vh;
+        margin-left: 9.5%;
+        margin-top:12rem;
 
         h1{
             margin-bottom: 1.5rem;
@@ -34,9 +33,9 @@ header {
     display: block;
     position: absolute;
     z-index: 10;
-    width: 55vw;
-    top: -15vh;
-    right: -18vw;
+    top: -5rem;
+    right: -14rem;
+    
 }
 .div-header-img-womman-mobile{
   display: none;
@@ -54,10 +53,9 @@ header {
 
   .header-content {
     width: 80%;
-    height: 35vh;
-    margin-left: 9.5vw;
-    margin-top:4vh;
-    margin-bottom: 10vh;
+    margin-left: 9.5%;
+    margin-top:2rem;
+    margin-bottom: 4rem;
 
     h1{
       margin-bottom: 1rem;
@@ -104,10 +102,9 @@ header {
 
   .header-content {
     width: 80%;
-    height: 35vh;
-    margin-left: 9.5vw;
-    margin-top:4vh;
-    margin-bottom: 10vh;
+    margin-left: 9.5%;
+    margin-top:2rem;
+    margin-bottom: 2.5rem;
 
     h1{
       margin-bottom: 1rem;
@@ -147,7 +144,7 @@ header {
     /* Estilos aqui */
 
     header{
-      height: 42rem;
+      height: 44rem;
       nav{
         img{
           width: 28%;
@@ -157,10 +154,9 @@ header {
 
     .header-content {
       width: 80%;
-      height: 35vh;
-      margin-left: 9.5vw;
-      margin-top:4vh;
-      margin-bottom: 10vh;
+      margin-left: 9.5%;
+      margin-top:2rem;
+      margin-bottom: 8rem;
 
       h1{
         margin-bottom: 1rem;
@@ -208,10 +204,9 @@ header {
 
     .header-content {
       width: 80%;
-      height: 28vh;
-      margin-left: 9.5vw;
-      margin-top:7vh;
-      margin-bottom: 5vh;
+      margin-left: 9.5%;
+      margin-top:5rem;
+      margin-bottom: 3rem;
 
   }
 
@@ -252,23 +247,20 @@ header {
 
     .header-content {
       width: 30%;
-      margin-left: 9.5vw;
-      margin-top:5vh;
+      margin-left: 9.5%;
+      margin-top:3rem;
 
   }
 
     }
 
     .header-img-womman {  
-      width: 58%;
-      top: -3vh;
-      right: -18vw;
+      width: 60%;
+      top: -3rem;
+      right: -10rem;
   }
 
-  .header-img-womman-mobile{
 
-  
-  }
 
 }
   
@@ -276,7 +268,7 @@ header {
   @media (min-width: 992px) and (max-width: 1199.98px) {
     /* Estilos aqui */
     header{
-      height: 570px;
+      height: 35.6rem;
       nav{
         img{
           width: 10%;
@@ -286,8 +278,8 @@ header {
 
     .header-content {
       width: 32%;
-      margin-left: 9.5vw;
-      margin-top:13vh;
+      margin-left: 9.5%;
+      margin-top:7rem;
 
   }
 
@@ -295,8 +287,8 @@ header {
 
     .header-img-womman {  
       width: 60%;
-      top: -8vh;
-      right: -18vw;
+      top: -5rem;
+      right: -13rem;
   }
   }
   
@@ -304,7 +296,7 @@ header {
   @media (min-width: 1200px) and (max-width: 1300px) {
    header{
 
-    height: 580px;
+    height: 35rem;
     .header-content{
       width: 30%;
       margin-top: 13vh;
@@ -313,14 +305,14 @@ header {
 
    .header-img-womman{
     width: 58%;
-    top: -10vh;
+    top: -5rem;
    }
   }
 
   @media (min-width: 1300px){
     header{
 
-      height: 40rem;
+      height: 44rem;
       .header-content{
         width: 30%;
       }
@@ -329,7 +321,8 @@ header {
     
     .header-img-womman {  
       width: 58%;
-      top: -10vh;
+      top: -5rem;
+      right: -14rem;
   }
 
 
